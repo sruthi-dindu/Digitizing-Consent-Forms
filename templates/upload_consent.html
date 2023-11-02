@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Consent</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+      padding-top: 100px;
+    }
+    
+    h1 {
+      color: #333;
+      font-size: 36px;
+    }
+    
+    .upload-form {
+      margin-top: 30px;
+    }
+    
+    .upload-button {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .upload-button:hover {
+      background-color: #0056b3;
+    }
+    
+    .selected-file {
+      margin-top: 20px;
+      font-size: 20px;
+      color: #666;
+    }
+    
+    .image-container {
+      margin-top: 20px;
+    }
+    
+    .image-container img {
+      max-width: 300px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .cartoon-container {
+      margin-top: 20px;
+    }
+  </style>
+  <script>
+    function handleFileSelect(event) {
+      const file = event.target.files[0];
+      const fileName = file.name;
+      document.getElementById('selected-file-name').innerText = fileName;
+    }
+  </script>
+</head>
+<body>
+  <h1>Upload Consent</h1>
+  
+  <div class="upload-form">
+    <form action="/upload_success" method="post" enctype="multipart/form-data">  
+      <label for="file-upload" class="upload-button">
+        Choose File
+      </label>
+      <input type="file" id="file-upload" name="file" onchange="handleFileSelect(event)" style="display: none;" />
+      <input type="submit" value="Upload" class="upload-button">
+    </form>
+  </div>
+  
+  <div class="selected-file">
+    Chosen File: <span id="selected-file-name"></span>
+  </div>
+  
+  
+</body>
+</html>

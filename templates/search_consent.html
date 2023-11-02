@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Box and Button</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+      padding-top: 100px;
+    }
+    
+    h1 {
+      color: #333;
+      font-size: 36px;
+    }
+    
+    .form-container {
+      margin-top: 30px;
+    }
+    
+    .form-container input[type="text"] {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      width: 200px;
+    }
+    
+    .form-container input[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .form-container input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Enter the value to be searched</h1>
+  
+  <div class="form-container">
+    <form action="/searching" method="post">
+      <input type="text" name="textbox" placeholder="Enter text">
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
