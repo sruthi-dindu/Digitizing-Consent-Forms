@@ -53,9 +53,9 @@ Scanning
 File sharing Services 
 OCR 
 
-There are many ways to store paper documents in a computer. Some of the most common methods include external hard drives, scanning, and file sharing services. 
+There are many ways to store paper documents on a computer. Some of the most common methods include external hard drives, scanning, and file-sharing services. 
 External hard drives are a good option for storing large amounts of documents. However, they can be difficult to share with others. 
-Scanning is the most common way to store paper documents in a computer. However, it can be difficult to search for documents that are simply stored as images or PDF files. 
+Scanning is the most common way to store paper documents on a computer. However, it can be difficult to search for documents that are simply stored as images or PDF files. 
 File sharing services allow you to store and share documents online. However, they can be insecure and your documents could be lost or stolen. 
 Optical Character Recognition (OCR) software can be used to convert scanned documents into text files. This makes it easier to search for documents and edit them. However, OCR software can be inaccurate and may not be able to recognize all of the text in a document. 
 In the context of storing consent forms, which are signed documents, it is not necessary to convert the entire document to text. Instead, the metadata can be extracted from the document and stored along with the scanned document. This makes it easy to access the document later. 
@@ -69,7 +69,7 @@ There are several OCR models available, each with its own strengths and areas of
 Tesseract: Tesseract is one of the most widely used open-source OCR engines. It provides support for over 100 languages and has gained popularity due to its accuracy and extensive community support. 
 Google Cloud Vision OCR: This OCR model is part of Google Cloud's suite of AI services. It offers advanced OCR capabilities, including text recognition, language detection, and automatic document structure extraction. 
 Microsoft Azure OCR: Azure OCR is a cloud-based OCR service provided by Microsoft Azure. It offers accurate and efficient text recognition in various languages and can be integrated with other Azure services. 
-Amazon Textract: Textract is Amazon Web Services' OCR service that goes beyond traditional OCR by providing the ability to extract structured data from documents. It can identify tables, forms, and key-value pairs, making it suitable for complex document analysis. 
+Amazon Textract: Textract is Amazon Web Services OCR service that goes beyond traditional OCR by providing the ability to extract structured data from documents. It can identify tables, forms, and key-value pairs, making it suitable for complex document analysis. 
 
 Now, let's discuss why EasyOCR is a preferred choice for many developers: 
 Easy Integration: EasyOCR is designed to be user-friendly and easy to integrate into Python applications. Its API is straightforward, enabling developers of all skill levels to incorporate OCR capabilities effortlessly. 
@@ -80,5 +80,5 @@ Flexibility with Input Formats: EasyOCR accepts various input formats, including
 Localization and Text Positioning: EasyOCR not only extracts the text from images but also provides information about the position and bounding boxes of the recognized text. This feature proves useful when you need to extract structured data or process specific regions within an image. 
 Overall, EasyOCR strikes a balance between simplicity and accuracy, making it an attractive choice for developers who require an easy-to-use OCR solution with multilingual support and high-quality results.  
 
-The codebase for this project is located in a private repository due to restrictions.
+The codebase for this project is located in a private repository due to restrictions. only frontend programs are accessible.
 Access to the codebase is restricted to authorized users.
